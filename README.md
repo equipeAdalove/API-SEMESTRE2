@@ -1,9 +1,7 @@
-# API ADS 2º Semestre
+<h1 align="center"> API ADS 2º Semestre</h1>
 
 <p align="center">
-      <img src="Documentação/img/Banner/logo-BuzzTech.png" alt="logo da Buzz Tech" width="200">
-      <h2 align="center">Equipe Ada Love</h2>
-
+      <img src="Documentação/Assets/bannerAdaLove (1).jpg" alt="Adalove" width="700">
 <br>
 
 <hr>
@@ -19,7 +17,7 @@
   <a href = "#backlog"> Backlog do Produto </a>  | 
   <!-- <a href ="#roadmap"> Roadmap </a>  | -->
   <a href = "#equipe"> Equipe </a>  |
-  <a href = "#focal"> Focal Point </a>
+  <a href = "#prof"> Professores </a>
 </p>
 
 
@@ -190,7 +188,8 @@ Entre as ferramentas utilizadas no Scrum, uma é a divisão do projeto em **Spri
 
 <br>
 
-## :dart: Focal Point<a id="focal"></a>
+## 🖋️ Professores: 
+<a id="prof"></a>
 
 | PO²              | M²       |
 | :-------------------: | :-----------: |
