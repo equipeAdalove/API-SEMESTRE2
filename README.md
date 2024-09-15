@@ -132,10 +132,10 @@ Entre as ferramentas utilizadas no Scrum, uma é a divisão do projeto em **Spri
 |   Rank  |   Requisito   | Prioridade |                          User Story                             | Sprint | Status  |
 | :-----: | :-----------: | :--------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----: | :-----: |
 |  1    |      RQ12     | Alta | Como contratante, quero um protótipo das interfaces da aplicação, de forma intuitiva e minimalista, com o objetivo de verificar sua navegabilidade.| 1 |  |
-|  2    |      RQ05 - RQ01 - RQ03     | Alta | Como usuário do sistema, quero uma interface simples e intuitiva para cadastro de novos documentos na aplicação.| 2 |      |
+|  2    |   RQ01 - RQ03     | Alta | Como usuário do sistema, quero uma interface simples e intuitiva para cadastro de novos documentos na aplicação.| 2 |      |
 |  3    |    RQ02       | Alta | Como requerente, quero que o sistema extraia informações textuais automaticamente dos documentos para que eu não precise fazer isso manualmente.| 2 |   |
 |  4    |      RQ04     |  Alta | Como contratante, quero que a aplicação exiba os resultados dos dados extraídos de maneira estruturada e visual, para agilizar o uso do software.| 2 |     |
-|  5    |      RQ05     | Alta | Como cliente, quero que as informações extraídas sejam armazenadas em um banco de dados, para que eu consiga consultar os relatórios já cadastrados no sistema.| 1 |      |
+|  5    |      RQ05     | Alta | Como cliente, quero que as informações extraídas sejam armazenadas em um banco de dados, para que eu consiga consultar os relatórios já cadastrados no sistema.| 2 |      |
 |  6    |      RQ09 - RQ10     | Média | Como administrador, quero garantir que a aplicação funcione localmente para preservar a privacidade dos dados e reduzir custos.| 1 | ✔️ |
 |  7    |      RQ11     | Média | Como administrador, quero garantir que os relatórios submetidos estejam protegidos através de sistema controle de acesso para garantir a confidencialidade das informações.| 3 |     |
 |  8    |      RQ08     | Baixa | Como administrador, quero ter a opção de deletar documentos e seus dados associados no banco de dados para manter apenas informações relevantes.| 3 |     |
@@ -188,7 +188,7 @@ Entre as ferramentas utilizadas no Scrum, uma é a divisão do projeto em **Spri
 
 <br>
 
-## 🖋️ Professores: 
+## 🗝️ Docentes: 
 <a id="prof"></a>
 
 | PO²              | M²       |
