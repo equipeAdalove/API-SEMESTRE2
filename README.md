@@ -17,7 +17,7 @@
   <a href = "#backlog"> Backlog do Produto </a>  | 
   <!-- <a href ="#roadmap"> Roadmap </a>  | -->
   <a href = "#equipe"> Equipe </a>  |
-  <a href = "#prof"> Professores </a>
+  <a href = "#docentes"> Docentes </a>
 </p>
 
 
@@ -117,6 +117,7 @@ Entre as ferramentas utilizadas no Scrum, uma é a divisão do projeto em **Spri
 | RQ11 | O software deverá visar a privacidade dos dados, através de um sistema de controle de acesso.|Acordo com o cliente|
 | RQ12 | A aplicação deve conter uma interface minimalista e intuitiva.|Lista de requisitos|
 | RQ13 | O usuário poderá consultar os relatórios já cadastrados no banco de dados do sistema.|Acordo com o cliente|
+| RQ14 | O usuário poderá filtrar os relatório relevantes através das informações-chave do paciente(nome, patologia, etc.).|Acordo com o cliente|
 
 </div>
 
@@ -135,12 +136,12 @@ Entre as ferramentas utilizadas no Scrum, uma é a divisão do projeto em **Spri
 |  2    |   RQ01 - RQ03     | Alta | Como usuário do sistema, quero uma interface simples e intuitiva para cadastro de novos documentos na aplicação.| 2 |      |
 |  3    |    RQ02       | Alta | Como requerente, quero que o sistema extraia informações textuais automaticamente dos documentos para que eu não precise fazer isso manualmente.| 2 |   |
 |  4    |      RQ04     |  Alta | Como contratante, quero que a aplicação exiba os resultados dos dados extraídos de maneira estruturada e visual, para agilizar o uso do software.| 2 |     |
-|  5    |      RQ05     | Alta | Como cliente, quero que as informações extraídas sejam armazenadas em um banco de dados, para que eu consiga consultar os relatórios já cadastrados no sistema.| 2 |      |
+|  5    |      RQ05 - RQ06     | Alta | Como cliente, quero que as informações extraídas sejam armazenadas em um banco de dados, para que eu consiga consultar os relatórios já cadastrados no sistema.| 2 |      |
 |  6    |      RQ09 - RQ10     | Média | Como administrador, quero garantir que a aplicação funcione localmente para preservar a privacidade dos dados e reduzir custos.| 1 | ✔️ |
 |  7    |      RQ11     | Média | Como administrador, quero garantir que os relatórios submetidos estejam protegidos através de sistema controle de acesso para garantir a confidencialidade das informações.| 3 |     |
 |  8    |      RQ08     | Baixa | Como administrador, quero ter a opção de deletar documentos e seus dados associados no banco de dados para manter apenas informações relevantes.| 3 |     |
 |  9    |      RQ07     | Baixa | Como contratante, quero ter a opção de editar as informações extraídas dos relatórios, para corrigir erros ou atualizar informações.     | 3 |   |
-|  10   |      RQ13     | Baixa | Como requerente, quero filtrar as informações extraídas dos relatórios através dos dados do paciente (nome, sexo, diagnóstico), para que eu possa encontrar facilmente os relatórios.|  4   |      |
+|  10   |      RQ14     | Baixa | Como requerente, quero filtrar as informações extraídas dos relatórios através dos dados do paciente (nome, sexo, diagnóstico), para que eu possa encontrar facilmente os relatórios.|  4   |      |
 |  11   |      RQ06     | Baixa | Como requerente, quero ter a opção de recuperar os relatórios submetidos para garantir a preservação das informações.| 4 |    |
 |  12   |    RQ08     | Baixa | Como cliente, quero a otimização do sistema, e a correção de pequenos bugs, visando o uso rápido e eficiente da aplicação.| 4 |   |
 </div>
@@ -189,7 +190,7 @@ Entre as ferramentas utilizadas no Scrum, uma é a divisão do projeto em **Spri
 <br>
 
 ## 🗝️ Docentes: 
-<a id="prof"></a>
+<a id="docentes"></a>
 
 | PO²              | M²       |
 | :-------------------: | :-----------: |
