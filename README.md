@@ -1,7 +1,7 @@
 <h1 align="center"> API ADS 2º Semestre</h1>
 
 <p align="center">
-      <img src="Documentação/Assets/bannerAdaLove (1).jpg" alt="Adalove" width="700">
+      <img src="Documentação/Assets/Banner - projeto (1).png" alt="Adalove" width="800">
 <br>
 
 <hr>
@@ -71,14 +71,13 @@ Descrição do Projeto: O objetivo é desenvolver um software que automatize a e
 3. **Camada de Persistência de Dados**
 4. **Camada de Processamento de Documentos (Visão e Linguagem)**
 5. **Camada de Segurança**
-6. **Camada de Integração e Gerenciamento**
 
 ### Benefícios:
 - **Privacidade**: Garantia de privacidade, pois não depende de serviços externos.
 - **Escalabilidade Local**: Pode ser ampliado para rodar em servidores locais ou escalado em hardware dedicado.
 - **Flexibilidade**: O uso de modelos open-source permite adaptação e personalização de acordo com as necessidades específicas dos usuários.
 
-Essa arquitetura equilibra a necessidade de **privacidade e controle local**, com a **eficiência e escalabilidade** necessárias para lidar com um volume crescente de relatórios clínicos.
+[Leia mais sobre a arquitetura do software!](https://github.com/equipeAdalove/API-SEMESTRE2/wiki/Arquitetura-do-Sistema) 
 
 <br>
 
