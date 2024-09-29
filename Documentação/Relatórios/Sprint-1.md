@@ -6,10 +6,10 @@
   <a href = "#desafio"> Desafio </a>  |
   <a href = "#mvp"> MVP </a>  |
   <a href = "#objetivo"> Objetivo da Sprint </a>  |
+  <a href="demo">Demonstração </a>  |
   <a href = "#backlog"> Backlog da Sprint </a>  | 
   <a href ="#tasks"> Tarefas </a>  | 
   <a href = "#demo"> Demonstração </a>  |
-  <a href ="#roadmap"> Roadmap </a>  |
   <a href = "#equipe"> Equipe </a>  |
 </p>
 
@@ -49,6 +49,7 @@ Descrição do Projeto: O objetivo é desenvolver um software que automatize a e
 - Extrair as informações essenciais dos documentos,relacionadas aos pacientes.
 - Acessar as informações extraídas dos relatórios.
 </div>
+
 <br>
 
 ## 🎯 Objetivo da Sprint
@@ -57,6 +58,7 @@ Descrição do Projeto: O objetivo é desenvolver um software que automatize a e
 Entregar artefatos que definam o fluxo de navegação e usabilidade da aplicação, além de alinhar requisitos e arquiteturas, criando uma base sólida para o desenvolvimento posterior. <br>
 </div>
 <br>
+
 
 ## 🐙 Backlog da Sprint
 <a id="backlog"></a>
@@ -88,6 +90,13 @@ Entregar artefatos que definam o fluxo de navegação e usabilidade da aplicaç�
 
 ### 3. Estruturação do Banco de Dados Relacional (MySQL)
 [Clique aqui para visualizar o script!](https://github.com/equipeAdalove/Back-API-SEMESTRE2/tree/main/BD)
+
+<br>
+
+## 🎥 Demonstração:
+<a id="demo"></a>
+
+https://github.com/user-attachments/assets/a556c571-094c-4e05-9870-b932f6f5f3b1
 
 <br>
 
