@@ -1,7 +1,7 @@
 <h1 align="center"> API ADS 2º Semestre</h1>
 
 <p align="center">
-      <img src="Documentação/Assets/bannerAdaLove (1).jpg" alt="Adalove" width="700">
+      <img src="Documentação/Assets/Banner - projeto (1).png" alt="Adalove" width="800">
 <br>
 
 <hr>
@@ -9,7 +9,8 @@
 <p align = "center">
   <a href = "#desafio"> Desafio </a>  |   
   <a href = "#mvp"> MVP </a>  |
-<!-- <a href ="#prototipo"> Protótipo </a>  |  -->
+  <a href = "#arq"> Arquitetura </a>  |
+  <a href ="#prototipo"> Protótipo </a>  | 
   <a href = "#demo"> Demonstração </a>  |
   <a href = "#sprint"> Sprints </a> |
   <a href = "#requisitos"> Requisitos </a> | 
@@ -45,7 +46,6 @@ Muitas empresas lidam com milhares de documentos diariamente, como currículos, 
 
 ## 🫧 MVP (Minimal Viable Product) 
 <a id="mvp"></a>
-
 <div>
 <b>Análise de Relatórios de Casos Clínicos</b> é um projeto voltado para facilitar o acesso e a análise de dados extraídos de relatórios clínicos, organizando as informações de forma estruturada para que profissionais da área de psicologia possam trabalhar de maneira mais eficiente.
   <br>
@@ -57,6 +57,56 @@ Descrição do Projeto: O objetivo é desenvolver um software que automatize a e
 - Extrair as informações essenciais dos documentos,relacionadas aos pacientes.
 - Acessar as informações extraídas dos relatórios.
 </div>
+<br>
+
+## 🛠️ Arquitetura do Sistema 
+<a id="arq"></a>
+<div>
+      Tendo em vista que a arquitetura do software de <b>Análise de Relatórios de Casos Clínicos</b> precisa equilibrar os requisitos funcionais e não funcionais, como privacidade de dados, desempenho, usabilidade e a independência de APIs externas. <br>
+      Uma arquitetura modular e escalável foi desenhada com base nesses aspectos, dividida em camadas:
+
+### Arquitetura Geral: Camadas
+1. **Camada de Apresentação (Frontend)**
+2. **Camada de Aplicação (Backend)**
+3. **Camada de Persistência de Dados**
+4. **Camada de Processamento de Documentos (Visão e Linguagem)**
+5. **Camada de Segurança**
+
+### Benefícios:
+- **Privacidade**: Garantia de privacidade, pois não depende de serviços externos.
+- **Escalabilidade Local**: Pode ser ampliado para rodar em servidores locais ou escalado em hardware dedicado.
+- **Flexibilidade**: O uso de modelos open-source permite adaptação e personalização de acordo com as necessidades específicas dos usuários.
+
+[Leia mais sobre a arquitetura do software!](https://github.com/equipeAdalove/API-SEMESTRE2/wiki/Arquitetura-do-Sistema) 
+
+<br>
+
+## ✨ Protótipo do Programa 
+<a id="prototipo"></a>
+<div align="center">
+      
+<table>
+  <tr>
+    <th> <img src = "https://github.com/equipeAdalove/Front-API-SEMESTRE2/blob/ccc3113ed3ec1078d91d2444d4f3905f7563d93a/Prot%C3%B3tipo/Tela%20de%20In%C3%ADcio.jpg"> </th>
+    <th> <img src = "https://github.com/equipeAdalove/Front-API-SEMESTRE2/blob/ccc3113ed3ec1078d91d2444d4f3905f7563d93a/Prot%C3%B3tipo/Home.jpg"> </th>
+    <th> <img src = "https://github.com/equipeAdalove/Front-API-SEMESTRE2/blob/ccc3113ed3ec1078d91d2444d4f3905f7563d93a/Prot%C3%B3tipo/Cadastrar%20documento.jpg"> </th>
+  </tr>
+      
+  <tr>
+    <td> <img src = "https://github.com/equipeAdalove/Front-API-SEMESTRE2/blob/ccc3113ed3ec1078d91d2444d4f3905f7563d93a/Prot%C3%B3tipo/Cadastrar%20documento-1.jpg"> </td>
+    <td> <img src = "https://github.com/equipeAdalove/Front-API-SEMESTRE2/blob/ccc3113ed3ec1078d91d2444d4f3905f7563d93a/Prot%C3%B3tipo/Cadastrar%20documento-2.jpg"> </td>
+    <td> <img src = "https://github.com/equipeAdalove/Front-API-SEMESTRE2/blob/ccc3113ed3ec1078d91d2444d4f3905f7563d93a/Prot%C3%B3tipo/Editar%20documento.jpg"> </td>
+  </tr>
+  <tr>
+    <td> <img src = "https://github.com/equipeAdalove/Front-API-SEMESTRE2/blob/ccc3113ed3ec1078d91d2444d4f3905f7563d93a/Prot%C3%B3tipo/Home%20-%20ap%C3%B3s%20cadastro.jpg"> </td>
+    <td> <img src = "https://github.com/equipeAdalove/Front-API-SEMESTRE2/blob/ccc3113ed3ec1078d91d2444d4f3905f7563d93a/Prot%C3%B3tipo/Consultar%20registros.jpg"> </td>
+    <td> <img src = "https://github.com/equipeAdalove/Front-API-SEMESTRE2/blob/main/Prot%C3%B3tipo/Excluindo%20relat%C3%B3rio.jpg"> </td>
+  </tr>
+</table>
+</div>
+
+
+<br>
 
 
 <br>
@@ -146,29 +196,7 @@ Entre as ferramentas utilizadas no Scrum, uma é a divisão do projeto em **Spri
 |  12   |    RQ08     | Baixa | Como cliente, quero a otimização do sistema, e a correção de pequenos bugs, visando o uso rápido e eficiente da aplicação.| 4 |   |
 </div>
 
-
-
 <br>
-
-<!--
-## :moyai: Personas <a id='personas'></a>
-
-| C-Level |
-| :------:|
-| Eu, como **C-Level** da *Ionic Health*, tenho como foco principal é fornecer informações claras e precisas aos nossos investidores sobre como estamos gerenciando nossos processos e cumprindo nossos objetivos. Preciso de relatórios que comuniquem de forma eficaz nosso sucesso e conformidade. |
-
-| Gerente / Diretor |
-| :------:|
-| Eu, como **Gerente / Diretor** da *Ionic Health*, necessito da capacidade de criar, definir requisitos e acompanhar todos os detalhes dos projetos é fundamental para o sucesso da equipe. Preciso de uma ferramenta que me ajude a manter tudo sob controle de forma eficaz e eficiente. |
-
-| Líder / Gestor |
-| :----:|
-|Eu, como **Líder / Gestor** da *Ionic Health*, é essencial ter uma ferramenta que me permita adicionar novas etapas com clareza e eficiência aos processos existentes. Isso simplifica a adaptação e o gerenciamento dos processos em constante evolução. Também é imperativo que possa fazer requisições das evidências necessárias para a validação de tais etapas, isso torna possível acompanhar o progresso e garantir que todos estejam alinhados com nossas metas. |
-
-| Colaborador  |
-| :----------: |
-| Eu, como **Colaborador** da *Ionic Health*, preciso de uma maneira fácil e eficaz de gerenciar todas as evidências necessárias nos processos da empresa. Uma notificação clara e instruções precisas são essenciais para garantir que eu possa fazer o meu trabalho de forma eficiente.  |
--->
 
 <br>
 
