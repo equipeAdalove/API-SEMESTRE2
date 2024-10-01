@@ -96,7 +96,7 @@ Descrição do Projeto: O objetivo é desenvolver um software que automatize a e
 - **Escalabilidade Local**: Pode ser ampliado para rodar em servidores locais ou escalado em hardware dedicado.
 - **Flexibilidade**: O uso de modelos open-source permite adaptação e personalização de acordo com as necessidades específicas dos usuários.
 
-[Leia mais sobre a arquitetura do software!](https://github.com/equipeAdalove/API-SEMESTRE2/wiki/Arquitetura-do-Sistema) 
+[Leia mais sobre a arquitetura do software!](https://github.com/equipeAdalove/API-SEMESTRE2/wiki/2.-Arquitetura-do-Sistema) 
 
 <br>
 
