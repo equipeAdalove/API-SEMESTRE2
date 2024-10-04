@@ -2,6 +2,7 @@
 
 <p align="center">
       <img src="Documentação/Assets/Banner - projeto (1).png" alt="Adalove" width="800">
+      
 <br>
 
 <hr>
@@ -72,9 +73,9 @@ Descrição do Projeto: O objetivo é desenvolver um software que automatize a e
 <br>Nele, o usuário poderá:
 
 - Cadastrar relatórios clínicos no banco de dados, de forma simples e ágil.
-- Editar, atualizar, deletar e recuperar registros armazenados na aplicação
+- Consultar, atualizar e deletar relatórios cadastrados.
 - Extrair as informações essenciais dos documentos,relacionadas aos pacientes.
-- Acessar as informações extraídas dos relatórios.
+- Editar as informações extraídas dos relatórios.
 </div>
 <br>
 
@@ -154,7 +155,7 @@ Os resultados dos projetos devem obedecer ao Aviso Legal disponível no site da 
 🥇 SPRINT 1:  Concluída! <br>
 [Clique para visualizar o relatório da 1° Sprint](https://github.com/equipeAdalove/API-SEMESTRE2/blob/Sprint-1/Documenta%C3%A7%C3%A3o/Relat%C3%B3rios/Sprint-1.md)
 
-🚀 SPRINT 1:  Em progresso!
+🚀 SPRINT 2:  Em progresso!
 
 🔒 SPRINT 3:  Ainda não iniciada!
 
@@ -171,17 +172,17 @@ Os resultados dos projetos devem obedecer ao Aviso Legal disponível no site da 
 | :-------------------: | :----------------------------------------------------------: | :-------------: |
 | RQ01 | O usuário poderá submeter documentos para modelos de linguagem e visão. |Lista de requisitos|
 | RQ02 | O software deverá tratar a saída dada por esses modelos.|Lista de requisitos|
-| RQ03 | Criar uma interface para cadastrar documentos.|Lista de requisitos|
+| RQ03 | Criar uma interface para submissão de documentos.|Lista de requisitos|
 | RQ04 | Criar uma interface para exibir resultados.|Lista de requisitos|
 | RQ05 | O usuário poderá cadastrar informações extraídas em um banco de dados relacional.|Lista de requisitos|
-| RQ06 | O usuário poderá recuperar informações do banco de dados.|Lista de requisitos|
+| RQ06 | O usuário poderá consultar as informações do banco de dados.|Lista de requisitos|
 | RQ07 | O usuário poderá editar informações do banco de dados.|Lista de requisitos|
 | RQ08 | O usuário poderá deletar informações do banco de dados.|Lista de requisitos|
 | RQ09 | O software não poderá utilizar nenhuma API externa.|Lista de requisitos|
 | RQ10 | A aplicação precisa rodar localmente na máquina.|Lista de requisitos|
 | RQ11 | O software deverá visar a privacidade dos dados, através de um sistema de controle de acesso.|Acordo com o cliente|
 | RQ12 | A aplicação deve conter uma interface minimalista e intuitiva.|Lista de requisitos|
-| RQ13 | O usuário poderá consultar os relatórios já cadastrados no banco de dados do sistema.|Acordo com o cliente|
+| RQ13 | O usuário terá acesso à documentação do projeto e aos guias de uso.|Acordo com o cliente|
 | RQ14 | O usuário poderá filtrar os relatório relevantes através das informações-chave do paciente(nome, patologia, etc.).|Acordo com o cliente|
 
 </div>
@@ -197,18 +198,20 @@ Os resultados dos projetos devem obedecer ao Aviso Legal disponível no site da 
       
 |   Rank  |   Requisito   | Prioridade |                          User Story                             | Sprint | Status  |
 | :-----: | :-----------: | :--------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----: | :-----: |
-|  1    |      RQ12     | Alta | Como contratante, quero um protótipo das interfaces da aplicação, de forma intuitiva e minimalista, com o objetivo de verificar sua navegabilidade.| 1 | ✔️ |
-|  2    |   RQ01 - RQ03     | Alta | Como usuário do sistema, quero uma interface simples e intuitiva para cadastro de novos documentos na aplicação.| 2 |  ✔️  |
-|  3    |    RQ02       | Alta | Como requerente, quero que o sistema extraia informações textuais automaticamente dos documentos para que eu não precise fazer isso manualmente.| 1 | ✔️ |
-|  4    |      RQ04     |  Alta | Como contratante, quero que a aplicação exiba os resultados dos dados extraídos de maneira estruturada e visual, para agilizar o uso do software.| 1 |  ✔️   |
-|  5    |      RQ05 - RQ06     | Alta | Como cliente, quero que as informações extraídas sejam armazenadas em um banco de dados, para que eu consiga consultar os relatórios já cadastrados no sistema.| 2 |      |
-|  6    |      RQ09 - RQ10     | Média | Como administrador, quero garantir que a aplicação funcione localmente para preservar a privacidade dos dados e reduzir custos.| 2 |   |
-|  7    |      RQ11     | Média | Como administrador, quero garantir que os relatórios submetidos estejam protegidos através de sistema controle de acesso para garantir a confidencialidade das informações.| 1 |  ✔️  |
-|  8    |      RQ08     | Baixa | Como administrador, quero ter a opção de deletar documentos e seus dados associados no banco de dados para manter apenas informações relevantes.| 3 |     |
-|  9    |      RQ07     | Baixa | Como contratante, quero ter a opção de editar as informações extraídas dos relatórios, para corrigir erros ou atualizar informações.     | 2 |   |
-|  10   |      RQ14     | Baixa | Como requerente, quero filtrar as informações extraídas dos relatórios através dos dados do paciente (nome, sexo, diagnóstico), para que eu possa encontrar facilmente os relatórios.|  4   |      |
-|  11   |      RQ06     | Baixa | Como requerente, quero ter a opção de recuperar os relatórios submetidos para garantir a preservação das informações.| 4 |    |
-|  12   |    RQ08     | Baixa | Como cliente, quero a otimização do sistema, e a correção de pequenos bugs, visando o uso rápido e eficiente da aplicação.| 4 |   |
+|  1  |  RQ01 - RQ02 | Alta | Como requerente, quero que o sistema extraia informações textuais automaticamente dos documentos para que eu não precise fazer isso manualmente. | 1 | ✔️ |
+|  2  | RQ03 - RQ05 | Alta | Como usuário do sistema, quero uma interface simples e intuitiva para cadastrar os documentos no software. | 1 |  ✔️  |
+|  3  | RQ02 | Alta | Como usuário do sistema, quero uma interface de exibição dos dados extraídos de maneira estruturada e visual, para agilizar o uso do software. | 1 | ✔️ |
+|  4  | RQ05 | Alta | Como cliente, quero que as informações extraídas sejam armazenadas em um banco de dados, para que não haja perda de dados. | 2 |   |
+|  5  | RQ08 | Média | Como administrador, quero ter a opção de deletar documentos do banco de dados para manter apenas informações relevantes. | 2 |      |
+|  6  |  RQ06  | Média | Como contratante, quero consultar os relatórios já cadastrados no sistema, para otimizar meu trabalho diário e facilitar a tomada de decisões. | 3 |   |
+|  7  |  RQ07  | Média |Como contratante, quero ter a opção de editar as informações extraídas dos relatórios, para corrigir erros ou atualizar informações. | 2 |  ✔ |
+|  8  |  RQ10  | Média | Como administrador, quero garantir que a aplicação funcione localmente para preservar a privacidade dos dados e reduzir custos. | 2 |     |
+|  9  | RQ11 | Média | Como administrador, quero garantir que os relatórios submetidos estejam protegidos através de sistema controle de acesso para garantir a confidencialidade das informações. | 1 |  ✔ |
+|  10   | RQ14 | Baixa | Como requerente, quero filtrar as informações extraídas dos relatórios através dos dados do paciente (nome, sexo, patologia), para que eu possa encontrar facilmente os relatórios. | 3 |      |
+| 11  | RQ12 | Baixa | Como usuário, quero que a interface seja otimizada para garantir um uso mais rápido e eficiente do sistema. | 4 |    |
+| 12 | RQ13 | Baixa | Como usuário, quero ter acesso à documentação do projeto, para entender o funcionamento do sistema e facilitar o seu uso. | 4 |   |
+| 13 | RQ12 | Baixa | Como contratante, quero que a equipe de desenvolvimento realize testes no software, para garantir que os dados sejam armazenados e extraídos corretamente. | 3 |   |
+| 14 |  RQ12  | Baixa | Como cliente, quero a otimização do sistema, e a correção de pequenos bugs, visando o uso rápido e eficiente da aplicação. | 4 |   |
 </div>
 
 <br>
@@ -235,7 +238,7 @@ Os resultados dos projetos devem obedecer ao Aviso Legal disponível no site da 
 ## 🗝️ Docentes: 
 <a id="docentes"></a>
 
-| PO²              | M²       |
+| P²              | M²       |
 | :-------------------: | :-----------: |
 | <a href='http://lattes.cnpq.br/4377240827813491'>Prof° Giuliano Bertoti </a> | <a href='http://lattes.cnpq.br/9330552327454666'>Prof° Cláudio Lima </a> |
 
