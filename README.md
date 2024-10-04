@@ -2,6 +2,7 @@
 
 <p align="center">
       <img src="Documentação/Assets/Banner - projeto (1).png" alt="Adalove" width="800">
+      
 <br>
 
 <hr>
