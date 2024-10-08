@@ -198,15 +198,15 @@ Os resultados dos projetos devem obedecer ao Aviso Legal disponível no site da 
       
 |   Rank  |   Requisito   | Prioridade |                          User Story                             | Sprint | Status  |
 | :-----: | :-----------: | :--------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----: | :-----: |
-|  1  |  RQ01 - RQ02 | Alta | Como requerente, quero que o sistema extraia informações textuais automaticamente dos documentos para que eu não precise fazer isso manualmente. | 1 | ✔️ |
-|  2  | RQ03 - RQ05 | Alta | Como usuário do sistema, quero uma interface simples e intuitiva para cadastrar os documentos no software. | 1 |  ✔️  |
-|  3  | RQ02 | Alta | Como usuário do sistema, quero uma interface de exibição dos dados extraídos de maneira estruturada e visual, para agilizar o uso do software. | 1 | ✔️ |
+|  1  |  RQ01 - RQ02 | Alta | Como requerente, quero que o sistema extraia informações textuais automaticamente dos documentos para que eu não precise fazer isso manualmente. | 1 | ✅ |
+|  2  | RQ03 - RQ05 | Alta | Como usuário do sistema, quero uma interface simples e intuitiva para cadastrar os documentos no software. | 1 |  ✅  |
+|  3  | RQ02 | Alta | Como usuário do sistema, quero uma interface de exibição dos dados extraídos de maneira estruturada e visual, para agilizar o uso do software. | 1 | ✅ |
 |  4  | RQ05 | Alta | Como cliente, quero que as informações extraídas sejam armazenadas em um banco de dados, para que não haja perda de dados. | 2 |   |
 |  5  | RQ08 | Média | Como administrador, quero ter a opção de deletar documentos do banco de dados para manter apenas informações relevantes. | 2 |      |
 |  6  |  RQ06  | Média | Como contratante, quero consultar os relatórios já cadastrados no sistema, para otimizar meu trabalho diário e facilitar a tomada de decisões. | 3 |   |
-|  7  |  RQ07  | Média |Como contratante, quero ter a opção de editar as informações extraídas dos relatórios, para corrigir erros ou atualizar informações. | 2 |  ✔ |
+|  7  |  RQ07  | Média |Como contratante, quero ter a opção de editar as informações extraídas dos relatórios, para corrigir erros ou atualizar informações. | 2 |  ✅ |
 |  8  |  RQ10  | Média | Como administrador, quero garantir que a aplicação funcione localmente para preservar a privacidade dos dados e reduzir custos. | 2 |     |
-|  9  | RQ11 | Média | Como administrador, quero garantir que os relatórios submetidos estejam protegidos através de sistema controle de acesso para garantir a confidencialidade das informações. | 1 |  ✔ |
+|  9  | RQ11 | Média | Como administrador, quero garantir que os relatórios submetidos estejam protegidos através de sistema controle de acesso para garantir a confidencialidade das informações. | 1 | ✅ |
 |  10   | RQ14 | Baixa | Como requerente, quero filtrar as informações extraídas dos relatórios através dos dados do paciente (nome, sexo, patologia), para que eu possa encontrar facilmente os relatórios. | 3 |      |
 | 11  | RQ12 | Baixa | Como usuário, quero que a interface seja otimizada para garantir um uso mais rápido e eficiente do sistema. | 4 |    |
 | 12 | RQ13 | Baixa | Como usuário, quero ter acesso à documentação do projeto, para entender o funcionamento do sistema e facilitar o seu uso. | 4 |   |
