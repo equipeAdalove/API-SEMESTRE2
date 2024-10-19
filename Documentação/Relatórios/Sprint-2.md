@@ -15,12 +15,28 @@
 
 
 <br>
-<h4 align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,github,idea,java,mysql" />
+<h1 align="center">
+
+<div style="display: inline_block"><br>
+
+<img align="center" alt="Raphs-Jira" height="50" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg">
+
+<img align="center" alt="Raphs-CSS" height="40" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+
+<img align="center" alt="Raphs-Java" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
+
+<img align="center" alt="Raphs-MySQL" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg">
+
+<img align="center" alt="Raphs-Git" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg">
+
+<img align="center" alt="Raphs-IntelliJ" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg">
+
+<img align="center" alt="Raphs-Ollama" height="50" width="50" src="https://github.com/ollama/ollama/assets/3325447/0d0b44e2-8f4a-4e99-9b52-a5c1c741c8f7">
+       
+</div>
+
   </a>
 </h4>
-
 
 <br>
 <br>
@@ -55,7 +71,7 @@ Descrição do Projeto: O objetivo é desenvolver um software que automatize a e
 ## 🎯 Objetivo da Sprint
 <a id="objetivo"></a>
 <div>
-#####
+Realizar testes iniciais do software de extração automática de informações e implementação do banco de dados relacional (CRUD).
 </div>
 <br>
 
@@ -67,14 +83,14 @@ Descrição do Projeto: O objetivo é desenvolver um software que automatize a e
       
 |   Rank  |   Requisito   | Tarefa |                          Descrição                             | Sprint | Status  |
 | :-----: | :-----------: | :--------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----: | :-----: |
-|  1    |      -     | Estudo do funcionamento do CRUD |  Configurar e estudar o funcionamento do CRUD no MySQL. | 2 |  |
-|  2    |    RQ05    | Implementar o CRUD (Cadastro de informações) | Implementar a lógica para cadastro de informações extraídas no banco de dados relacional (MySQL). | 2 |   |
-|  3    |    RQ08    | Implementar o CRUD (Deletar relatórios) | Desenvolver a funcionalidade de exclusão de informações do banco de dados relacional (MySQL). | 2 |   |
-|  4    |    RQ07    | Implementar o CRUD (Edição de informações) | Implementar a lógica para editar as informações extraídas no banco de dados relacional (MySQL). | 2 |  |
-|  5    |    RQ10    | Trabalhar no funcionamento do projeto, localmente | Implementar uma função que permita consultar os documentos previamente cadastrados. | 2 |  |
-|  6    |    RQ02    | Testes de Extração e Cadastro | Realizar testes manuais e automáticos para validar a extração de informações e o cadastro no banco de dados. | 2 |  |
-|  7    |      -     | Início da documentação do projeto | Criar e revisar a documentação, incluindo arquitetura, processo de desenvolvimento e guia de uso. | 2 |  |
-|  8    |      -     | Integração do GitHub de maneira automatizada | Estudo da integração do GitHub com outras aplicações, e ferramenta de gestão de tarefas. | 2 |  |
+|  1    |      -     | Estudo do funcionamento do CRUD |  Configurar e estudar o funcionamento do CRUD no MySQL. | 2 | ✅ |
+|  2    |    RQ05    | Implementar o CRUD (Cadastro de informações) | Implementar a lógica para cadastro de informações extraídas no banco de dados relacional (MySQL). | 2 | ✅  |
+|  3    |    RQ08    | Implementar o CRUD (Deletar relatórios) | Desenvolver a funcionalidade de exclusão de informações do banco de dados relacional (MySQL). | 2 | ✅  |
+|  4    |    RQ07    | Implementar o CRUD (Edição de informações) | Implementar a lógica para editar as informações extraídas no banco de dados relacional (MySQL). | 2 | ✅ |
+|  5    |    RQ10    | Trabalhar no funcionamento do projeto, localmente | Implementar uma função que permita consultar os documentos previamente cadastrados. | 2 | ✅ |
+|  6    |    RQ02    | Testes de Extração e Cadastro | Realizar testes manuais e automáticos para validar a extração de informações e o cadastro no banco de dados. | 2 | :✅ |
+|  7    |      -     | Início da documentação do projeto | Criar e revisar a documentação, incluindo arquitetura, processo de desenvolvimento e guia de uso. | 2 | ✅ |
+|  8    |      -     | Integração do GitHub de maneira automatizada | Estudo da integração do GitHub com outras aplicações, e ferramenta de gestão de tarefas. | 2 | ✅ |
 
 </div>
 
@@ -82,7 +98,18 @@ Descrição do Projeto: O objetivo é desenvolver um software que automatize a e
 
 ## ☕ Tarefas
 <a id="tasks"></a>
-###
+
+### 1. Implementação do CRUD
+"Create, Read, Update, Delete", utilizadas para manipular dados em um sistema de gerenciamento de banco de dados, ou seja, o usuário já consegue **cadastrar**,**acessar**, **atualizar** e **apagar** informações do sistema.
+
+### 2. Documentação
+[Clique aqui para visualizar a documentação do projeto!](https://github.com/equipeAdalove/API-SEMESTRE2/wiki)
+
+### 3. Testes de software
+Visando um sistema mais rápido, confiável e seguro, melhorando a experiência geral do usuário.
+
+<br>
+
 <br>
 
 ## 🎥 Demonstração:
