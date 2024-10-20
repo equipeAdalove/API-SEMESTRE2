@@ -126,6 +126,11 @@ Descrição do Projeto: O objetivo é desenvolver um software que automatize a e
 
 https://github.com/user-attachments/assets/96557c71-b80d-4824-b944-248d78d41f0c
 
+### 📂 Sprint 2:
+
+https://github.com/user-attachments/assets/bd102672-0b0c-4e7b-80ff-fdfbdb32a9fc
+
+
 <br>
 
 ## 📖 Metodologia 
